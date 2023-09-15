@@ -1,0 +1,3 @@
+D:/itmo 3rd year/ict_cpp_course/cmake-build-debug/CMakeFiles/ict_cpp_course.dir
+D:/itmo 3rd year/ict_cpp_course/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/itmo 3rd year/ict_cpp_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir

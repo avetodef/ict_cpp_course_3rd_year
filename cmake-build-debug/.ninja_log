@@ -1,0 +1,20 @@
+# ninja log v5
+2	268	7162388091081238	build.ninja	4c8c2f71da656f8e
+16	2634	7162116699429832	CMakeFiles/ict_cpp_course.dir/lab01/lab01.cpp.obj	d98473e3697ac9ae
+10	842	7162118981017634	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+842	1042	7162118982934466	ict_cpp_course.exe	6e5f6bec8cfa83a2
+13	1356	7162393439231299	CMakeFiles/ict_cpp_course.dir/lab02/lab02.cpp.obj	2ac2521d5b4b8a79
+5	1428	7162393439951619	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+1428	1858	7162393444227170	ict_cpp_course.exe	5eaf730a518ff9c2
+13	993	7164860252171392	CMakeFiles/ict_cpp_course.dir/lab02/lab02.cpp.obj	2ac2521d5b4b8a79
+4	1108	7164860253319298	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+1108	1391	7164860256124925	ict_cpp_course.exe	5eaf730a518ff9c2
+8	655	7164861824825918	CMakeFiles/ict_cpp_course.dir/lab02/lab02.cpp.obj	2ac2521d5b4b8a79
+3	778	7164861826013196	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+778	880	7164861827014878	ict_cpp_course.exe	5eaf730a518ff9c2
+9	1037	7164863131793705	CMakeFiles/ict_cpp_course.dir/lab02/lab02.cpp.obj	2ac2521d5b4b8a79
+3	1289	7164863134278402	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+1289	1504	7164863136479901	ict_cpp_course.exe	5eaf730a518ff9c2
+21	927	7164866057925767	CMakeFiles/ict_cpp_course.dir/lab02/lab02.cpp.obj	2ac2521d5b4b8a79
+11	1107	7164866059644844	CMakeFiles/ict_cpp_course.dir/main.cpp.obj	97f06293005299cd
+1107	1317	7164866061804438	ict_cpp_course.exe	5eaf730a518ff9c2
