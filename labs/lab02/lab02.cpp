@@ -19,7 +19,7 @@ public:
     static bool checkSNILS(long long snils){
 
         long long snilsBackup = snils;
-        int lastDigits[2];
+        long long lastDigits[2];
 
         lastDigits[1] = snils%10;
         lastDigits[0] = (snils/10)%10; //get last two digits in array
