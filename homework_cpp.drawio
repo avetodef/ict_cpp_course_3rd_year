@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T11:53:09.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lNNkgYp3E-3j_O06-5sy" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T11:55:30.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UYvRFN0wttjpIvmT2Szc" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1290" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,10 +59,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8A0uDx2P0iQk1y7sVwv4-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="430" y="270" width="140" height="60" as="geometry" />
+          <mxGeometry x="280" y="250" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8A0uDx2P0iQk1y7sVwv4-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;Professor&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="660" y="270" width="140" height="60" as="geometry" />
+          <mxGeometry x="590" y="245" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8A0uDx2P0iQk1y7sVwv4-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8A0uDx2P0iQk1y7sVwv4-27" target="8A0uDx2P0iQk1y7sVwv4-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -116,6 +116,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="760" y="220" as="sourcePoint" />
             <mxPoint x="920" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRMmGEAuUMt5CqdnRG8J-17" value="LabWorker" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRMmGEAuUMt5CqdnRG8J-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.412;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oRMmGEAuUMt5CqdnRG8J-17" target="8A0uDx2P0iQk1y7sVwv4-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="458" y="270" as="sourcePoint" />
+            <mxPoint x="515" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRMmGEAuUMt5CqdnRG8J-19" value="Dean" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="245" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRMmGEAuUMt5CqdnRG8J-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.948;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.335;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oRMmGEAuUMt5CqdnRG8J-19" target="8A0uDx2P0iQk1y7sVwv4-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="710" y="275" as="sourcePoint" />
+            <mxPoint x="668" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
