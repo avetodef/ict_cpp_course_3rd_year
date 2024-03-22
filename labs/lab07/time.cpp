@@ -3,6 +3,8 @@
 //
 
 #include <iostream>
+using namespace std;
+
 
 struct Time {
     int hours;
@@ -12,12 +14,12 @@ struct Time {
 
 Time inputTime() {
     Time t;
-    std::cout << "Введите часы: ";
-    std::cin >> t.hours;
-    std::cout << "Введите минуты: ";
-    std::cin >> t.minutes;
-    std::cout << "Введите секунды: ";
-    std::cin >> t.seconds;
+    cout << "Введите часы: ";
+    cin >> t.hours;
+    cout << "Введите минуты: ";
+    cin >> t.minutes;
+    cout << "Введите секунды: ";
+    cin >> t.seconds;
     return t;
 }
 
@@ -41,20 +43,20 @@ Time addTimes(const Time& t1, const Time& t2) {
 Time subtractTimes(const Time& t1, const Time& t2) {
     int totalSeconds = timeToSeconds(t1) - timeToSeconds(t2);
     if (totalSeconds < 0) {
-        totalSeconds = 0;  // Не допускаем отрицательного времени
+        totalSeconds = 0;
     }
     return secondsToTime(totalSeconds);
 }
 
-int main() {
-    Time time1 = inputTime();
-    Time time2 = inputTime();
-
-    Time sum = addTimes(time1, time2);
-    Time difference = subtractTimes(time1, time2);
-
-    std::cout << "Сумма времен: " << sum.hours << " часов " << sum.minutes << " минут " << sum.seconds << " секунд." << std::endl;
-    std::cout << "Разница времен: " << difference.hours << " часов " << difference.minutes << " минут " << difference.seconds << " секунд." << std::endl;
-
-    return 0;
-}
+//int main() {
+//    Time time1 = inputTime();
+//    Time time2 = inputTime();
+//
+//    Time sum = addTimes(time1, time2);
+//    Time difference = subtractTimes(time1, time2);
+//
+//    std::cout << "Сумма времен: " << sum.hours << " часов " << sum.minutes << " минут " << sum.seconds << " секунд." << std::endl;
+//    std::cout << "Разница времен: " << difference.hours << " часов " << difference.minutes << " минут " << difference.seconds << " секунд." << std::endl;
+//
+//    return 0;
+//}

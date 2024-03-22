@@ -71,6 +71,7 @@ public:
         }
         for (int i = 0; i < N; i++)
             cout << a[i] << '\t';
+        return a;
     }
 
     int* maxVect(int kc, const int a[], const int b[]) {
